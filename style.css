@@ -1,0 +1,35 @@
+.square {
+  border-style: solid;
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: #19cdd3;
+  margin: 3px;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+body {
+  background-image: url(https://cutewallpaper.org/21/fondos-de-pantalla-gif/Fondos-de-pantalla-gif-2-At-GIF-Images-Download.gif);
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#colorDisplay {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 1cm, solid, rgb(0, 0, 0);
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+#stripe {
+  color: azure;
+  text-align: center;
+  border-color: black;
+  font-size: 30px;
+}

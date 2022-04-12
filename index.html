@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorGame</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      The Great <span id="colorDisplay">RGB</span> Guessing Game
+    </h1>
+    <div id="stripe">
+      <button id="reset">Nuevos colores</button>
+      <span id="message"></span>
+      <button class="mode">Facil</button>
+      <button class="mode selected">Dificil</button>
+    </div>
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
